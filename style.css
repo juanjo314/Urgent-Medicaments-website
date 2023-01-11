@@ -20,7 +20,7 @@ iframe {
 }
 
 .dark-mode .text {
-  color: #F8F991;
+  color: hsl(60, 40%, 96%);
 }
 
 #dark-mode-button {
