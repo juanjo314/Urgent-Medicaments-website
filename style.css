@@ -1,5 +1,5 @@
 body {
-  background-image: url('/images/pochette.png');
+  background-image: url('images/pochette.png');
   background-size: 40%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -35,7 +35,7 @@ iframe {
 }
 
 .dark-mode-background {
-  background-image: url('/images/pochette_dark_mode.png');
+  background-image: url('images/pochette_dark_mode.png');
 }
 
 li {
