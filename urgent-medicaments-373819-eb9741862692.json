@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "urgent-medicaments-373819",
+  "private_key_id": "eb9741862692fd91acb11c27762586d6b6c4ed12",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDEchED70fU5lcy\nH/vfzfXoh5J7Zh9OQsBPO0ZRi19ZirOkBhNd9EMmTpEN2utbO0I29cgG4mNrV1IR\nUs2pagbV8zpjaXIV7mKV6lkkxoe/AT4C5JGtZ0ppBPg8oWmydVQzETN4ZrcK11p7\nfXptlKz0bEfQJhuLq6M9nqhK7rBNSY2/f2k9O8FMlpFBGsImoJksObIEpXFmn6Iz\n9vK1dyHuAr7vSOvdl0h70Ld2cp5rtPz57Iss32zzwIsG+UD8Xo7XM8h1jH34D/pn\nmJV+dHLdGIkyRJDqXhlY7HXJQm3lWyz8iNPzW6f1H2lra+LUer1tvbZJh3P7v0VD\nKvZyNBjVAgMBAAECggEAA3Ew1KLE9xlMWYol1PHyl0igdU3HCloRLUiiqD7UflWe\nMhqfWY2N5Q/KRJXVLjccQPYu2aLUyKNe6NBMkiWHAwk2ko1DgAuT1sCLBghKuSFT\nSsqVnElh/6b9ylXIUkwlgoAqG9464oz++CJ5x0FF0MIAwrtkNXiRGfBb6EI4VlMf\neH0QQ5RP9/zJz7+hioiF28BuWwBikq+yAh294r0pQRCaFbVFxvcFEQ1zoTaimkmZ\nSRxSurRzTPcssSt0ve+Ou/eT9R4laIMf6XVTgXhXdjDiEpQNYnQBqEDLzKBD724m\nqbPTCD+dBf6Uugo0SixjRheIXS0ueLHqloQ1KZTn6QKBgQD3niIwkGS0kWt7whC7\nvvEIxnqNAXa8NzLViNhDOvISKbgSct7QhmjZWQQSOsXARfBaSeoS8K+geHYp5hME\npnK2huYzyEmioDABfNWaPbxaJoazCo7I+VA5y+VS3JkJjPJUyHdcuKZOeoT/6qSP\nOGphgqLUtDaj00g4bkgNUwWVDQKBgQDLGHkK1NxpXn7OFYGmmSlinRRyU/Oam38l\n0KOEW30jVYc+WI4GHAFzhcxCX0BXsbvE2WfQsrM2wl2dz5kFkzcwu5iI9n4MuFcC\nw1yWVXlvdWLzn6xtIWXzMy0AE2dE0wBCVsI9h8O+7pStmmLeT0JF/Jp78rZspeMp\nwqm2PaEw6QKBgQCpceX1k6nGQsjpjHiE8Xnhxmhwe3L0A1Xe9+D9yKWENlZHEaJV\n0dSH/zkg/GT8WR/LuU7bnSahyi0aKN4UzY4sR43aG5IAHlwbeIB3Jw3wJvMALBZf\ngvQaSOPp2xlChtgBmpjLs3PiukavFbN8al+p0Ip6wcOuQdPnAdh+fbSRNQKBgCnr\nYDh7HQ9moLe6uqr/XAptr6W1bEeSJtlQSh/snlSnt6WHs7DRIP+OM03TyT0Qg1gr\nI4FxEQqRba9ABS6gZzjYz7AdaIEJn3QDjN2+wLTfvs/YOkfAKAHdo0ErwBn1j00i\nCS+YETAcoHWAsz19kIlPjTdeLocYal3ZPxxNdjLZAoGBAJR+h046IvKLZEZvtUvL\nEpnH5Ai5l/UaK5Qn+kKs/rFncG1FSKZZk2MLridj3RhkawNQkW4sA9jeySkiqQ/R\n7dc+8tur8bMD0ZWUU8+ZTpxSIvbkRxrn6e9ifn1SUMm3/BgH+LlJkMvhxyTaa1/9\nImumPtBhRQVclmmTVtqKDMB4\n-----END PRIVATE KEY-----\n",
+  "client_email": "urgent-medicaments@urgent-medicaments-373819.iam.gserviceaccount.com",
+  "client_id": "100973744959612667714",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/urgent-medicaments%40urgent-medicaments-373819.iam.gserviceaccount.com"
+}

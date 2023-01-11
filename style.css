@@ -1,0 +1,330 @@
+body {
+  background-image: url('/images/pochette.png');
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  background-position: 0px 100px;
+}
+
+
+iframe {
+  border-radius: 5px; /* bords arrondis */
+  border: 1px solid #F8F991; /* liseret */
+  display: block;
+  margin: auto;
+}
+
+.text .tournee {
+  color: #000;
+}
+
+.dark-mode .text {
+  color: #F8F991;
+}
+
+#dark-mode-button {
+  border: 1px solid #708B75;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.dark-mode {
+  background-color: black;
+}
+
+.dark-mode-background {
+  background-image: url('/images/pochette_dark_mode.png');
+}
+
+li {
+  font-size: 14px;
+}
+
+h2, h3 {
+  color: #006005;
+  text-align: center;
+}
+
+h1, p, td, li {
+  color: #000000;
+}
+
+header#header {
+  margin: 0; /* enlève les marges */
+  padding: 0; /* enlève les paddings */
+}
+
+header h1 {
+  color: #F8F991;
+  text-align: center;
+  border-radius: 50px; /* bords arrondis */
+  border: 1px solid #F8F991; /* liseret */
+}
+
+#accueil {
+  text-align: center;
+}
+
+#carrousel {
+  width: 100%;
+  height: 400px;
+}
+
+#carrousel img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+#galerie iframe {
+  width: 100%; /* Ajuste la largeur de la vidéo à la largeur de son conteneur */
+  height: 300px; /* Ajuste la hauteur de la vidéo en fonction de sa largeur et du ratio de l'image */
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background-color: #000000;
+  color: #F8F991;
+  border-radius: 5px; /* bords arrondis */
+  border: 1px solid #F8F991; /* liseret */
+  overflow: hidden; /* empêche le débordement de contenu */
+  white-space: nowrap; /* empêche les retours à la ligne */
+}
+
+nav {
+  margin-top: -16px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  left: 0;
+  right: 0;
+}
+
+
+nav li a {
+  display: block;
+  padding: 1em;
+  color: #F8F991;
+  text-decoration: none;
+  border-radius: 5px; /* bords arrondis */
+  overflow: hidden; /* empêche le débordement de contenu */
+  white-space: nowrap; /* empêche les retours à la ligne */
+}
+
+nav li a:hover {
+  background-color: #708B75;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+  border-radius: 50px; /* bords arrondis */
+  margin-left: 500px;
+}
+
+section {
+  padding-top: 55px;
+  margin-bottom: 1em;
+  border: none;
+}
+
+#contact {
+  /*display: none;*/
+  margin: 100px;
+  text-align: center;
+}
+
+#boutique {
+  /*display: none; */
+  margin: 100px;
+  text-align: left;
+}
+
+table#tournee {
+  border: none;
+  margin: 20px;
+  width: 90%;
+  text-align: left;
+  color: #006005
+}
+
+th#tournee {
+  background-color: #f0c000; /* couleur jaune pâle */
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+}
+
+td#tournee {
+  border: 1px solid #f0c000; /* couleur jaune pâle */
+  padding: 10px;
+}
+
+tr#tournee:nth-child(even) {
+  background-color: #f9f9f9; /* couleur gris clair */
+}
+
+table#tournee tr:hover {
+  background-color: #f0c000; /* couleur jaune pâle */
+}
+
+#send-button, #submit-button, #dark-mode-button {
+  background-color: #F8F991; /* couleur jaune pâle */
+}
+
+#reseaux-sociaux {
+  text-align: center;
+}
+
+#carroussel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#carroussel img {
+  display: none;
+}
+
+#carroussel img.active {
+  display: block;
+}
+
+#carroussel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+  background-color: transparent;
+  border: none;
+  color: #F8F991;
+}
+
+#carroussel button.prev {
+  left: 5%;
+}
+
+#carroussel button.next {
+  right: 5%;
+}
+
+/* Boutons de navigation pour le carrousel */
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  outline: none;
+  border: none;
+  background: #F8F991;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #3D315B;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  color: #F5F5F5;
+  background: #708B75;
+}
+
+.slick-prev {
+  left: 0;
+}
+
+.slick-next {
+  right: 0;
+}
+
+#slider {
+  width: 100%;
+  height: 400px;
+}
+
+#slider img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  outline: none;
+  border: none;
+  background: #F8F991;
+  border-radius: 50%;
+  font-size: 0;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 20px;
+  color: #3D315B;
+}
+
+.slick-prev {
+  left: 5%;
+}
+
+.slick-prev:before {
+  content: '\2190';
+}
+
+.slick-next {
+  right: 5%;
+}
+
+.slick-next:before {
+  content: '\2192';
+}
+
+/* Boutons de navigation pour le carrousel */
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: #708B75;
+}
+
+/* Dots pour le carrousel */
+.slick-dots {
+  bottom: 10px;
+}
+
+.slick-dots li {
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+  background-color: #3D315B;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.slick-dots li.slick-active {
+  background-color: #708B75;
+}

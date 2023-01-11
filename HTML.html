@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Urgent Medicaments</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="JavaScript.js"></script>
+  <script src="mail.php"></script>
+  <script>
+  $(document).ready(function () 
+  {
+    $('#slider').slick({
+      autoplay: true,
+      dots: false,
+      arrows: true,
+      fade: true,
+      speed: 1000,
+    });
+  });
+  </script>
+  <link rel="icon" href="/images/icon.png">
+</head>
+<body>
+
+<button id="dark-mode-button">Activer Dark Mode</button>
+
+<header id="header" style="position: relative;">
+  <nav>
+    <ul>
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#biographie">Biographie</a></li>
+      <li><a href="#musique">Musique</a></li>
+      <li><a href="#tournées">Concerts</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <!--<li><a href="#boutique">Boutique</a></li>-->
+    </ul>
+  </nav>
+</header>
+
+  <main>
+    <section id="accueil">
+      <p class="text"><b>Urgent Medicaments, le duo électro-dub qui fait sensation, vous emmène dans un voyage sonore unique et immersif grâce à leur mélange explosif de sons traditionnels du dub et de textures électroniques modernes.</b> 
+        <br>
+        <br>
+        <br></p>
+      <div id="slider">
+    <img src="/images/Logo blanc.png" alt="Logo Urgent Medicaments">
+    <img src="/images/pochette.png" alt="photo du groupe en concert">
+    <img src="/images/Johan blanc.jpg" alt="Johan BLANC">
+  </div>
+  <script>
+    $(document).ready(function() {
+      $("#slider").slick({
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: true,
+        arrows: false
+      });
+    });
+  </script>
+</section>
+
+    <section id="biographie">
+      <h2>Biographie</h2>
+      <p class="text">Le duo de dub <b>Urgent Médicaments</b> fait sensation avec leur mélange explosif de sons traditionnels du dub et de textures électroniques modernes. <b>Urgent Médicaments</b> est composé de <b>Johan Blanc</b> et <b>Quentin Lavy</b>, amis de longue date, tous deux multi-instrumentistes talentueux issu du milieu du jazz. Ils ont su créer un univers musical envoûtant qui captive leur public.
+        <br>
+        <br>
+        Ce qui distingue <b>Urgent Médicaments</b>, c'est leur approche innovante de la musique en direct. Avec leurs instruments, leurs pédales et leurs samplers, ils sont capables de boucler et manipuler leurs compositions en temps réel sur scène, donnant à chaque concert une dimension improvisée et mettant en valeur leur incroyable talent d'artistes multi-instrumentistes. Chaque performance est unique et offre une expérience immersive que les spectateurs n'oublieront pas de sitôt.
+        <br>
+        Le groupe a sorti son premier EP en 2022, la tournée 2023 est préparation, et ça va être intense !
+        </p>
+      </section>
+
+<section id="musique">
+  
+  <h2>Musique</h2>
+  <!-- lecteur audio intégré -->
+  <iframe 
+  width="70%" 
+  height="200" 
+  scrolling="no" 
+  frameborder="yes" 
+  allow="autoplay" 
+  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1454593669&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+  </iframe>
+
+  <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+    <a href="https://soundcloud.com/contact-urgent-medicaments" 
+    title="Urgent Medicaments EP" 
+    target="_blank" 
+    style="color: #cccccc; text-decoration: none;"></a> · 
+    <a href="https://soundcloud.com/contact-urgent-medicaments/sets/urgent-medicament-demo" 
+    title="Urgent Medicament Demo" 
+    target="_blank" 
+    style="color: #cccccc; text-decoration: none;"></a></div>
+  
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/T3Tvs3Q-Ml8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <br>
+    <br>
+    <br>
+    <br>
+</section>
+
+<section id="tournées">
+  <h2>Concerts</h2>
+  <!-- tableau avec les informations sur les tournées -->
+  <table id="tournee" class="tournee">
+    <tr>
+      <th class="tournee">Date</th>
+      <th class="tournee">Lieu</th>
+      <th class="tournee">Ville</th>
+    </tr>
+    <tr>
+      <td class="tournee text">10/05/2022</td>
+      <td class="tournee text">Salle Pleyel</td>
+      <td class="tournee text">Paris</td>
+      <td class="tournee text"><a href="#">Billetterie</a></td>
+    </tr>
+    <tr>
+      <td class="tournee text">15/06/2022</td>
+      <td class="tournee text">Théâtre de l'Odéon</td>
+      <td class="tournee text">Marseille</td>
+      <td class="tournee text"><a href="#">Billetterie</a></td>
+    </tr>
+  </table>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p class="text"><b>mail :</b> contact.urgent.medicaments[at]gmail.com<br>
+    <br>
+  <b>tel :</b> 06.42.36.84.64<br></p>
+  <p class="text">Vous avez des questions ou des suggestions? N'hésitez pas à nous contacter en remplissant le formulaire ci-dessous.</p>
+  <form id="contact-form">
+    <label for="name">Nom:</label><br>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">E-mail:</label><br>
+    <input type="text" id="email" name="email"><br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="10"></textarea><br>
+    <br>
+    <button type="submit" id="send-button">Envoyer</button>
+  </form> 
+  <br>
+  <br>
+  <!-- formulaire de newsletter -->
+  <!-- <h3 class="text">Inscrivez-vous à notre NewsLetter</h3>
+  <form>
+    <label for="email-newsletter">E-mail :</label><br>
+    <input type="email" id="email-newsletter" name="email-newsletter"><br>
+    <br>
+    <button type="submit" id="submit-button">S'inscrire</button>
+  </form> -->
+</section>
+
+<section id="boutique">
+  <!-- <h2>Boutique</h2>
+  <p class="text">Découvrez notre sélection de produits en vente sur les plateformes suivantes :</p>
+  <ul>
+    <li><a href="#">Acheter l'album sur Bandcamp</a></li>
+    <li><a href="#">Acheter le T-shirt</a></li>
+    <li><a href="#">Acheter le poster</a></li>
+  </ul>-->
+</section>
+
+</main>
+
+<footer>
+  <!-- liens vers les réseaux sociaux -->
+  <div id="reseaux-sociaux">
+    <p class="text">&copy; Urgent Medicaments</p>
+    <a href="https://www.facebook.com/urgentmedicaments" target="_blank"><img src="/images/facebook.png" alt="logo Facebook"></a>
+    <a href="https://www.youtube.com/channel/UCYFnCI1Bea_C83tBSDFxkVA" target="_blank"><img src="/images/youtube.png" alt="logo Youtube"></a>
+    <a href="#"><img src="/images/instagram.png" target="_blank" alt="logo Instagram"></a>
+  </div>
+</footer>
+
+<script>
+  $(document).ready(function(){
+    $('#slider').slick();
+  });
+</script>  
+
+</body>
+</html>
+
