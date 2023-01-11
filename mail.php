@@ -70,15 +70,5 @@ if (isset($_POST['submit'])) {
   echo "<input type='submit' name='submit'>";
   echo "</form>";
   
-  /*
-  
-  // Envoie un email à l'adresse spécifiée en utilisant l'access token fourni.
-  // @param string $access_token access token de l'utilisateur authentifié
-  // @param string $to adresse email du destinataire
-  @param string $subject sujet de l'email
-  @param string $message corps de l'email
-  @param string $headers en-têtes de l'email
-  @return bool true si l'email a été envoyé, false sinon
-  */
   
   ?>
