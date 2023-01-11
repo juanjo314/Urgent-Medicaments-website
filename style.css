@@ -42,6 +42,13 @@ li {
   font-size: 14px;
 }
 
+h4 {
+  color: #f9f9f9;
+  font-size: 20px;
+  padding-right: 300px;
+  padding-left: 80px;
+}
+
 h2, h3 {
   color: #006005;
   text-align: center;
@@ -85,6 +92,7 @@ header h1 {
 
 nav ul {
   display: flex;
+  align-items: center;
   justify-content: space-around;
   list-style: none;
   background-color: #000000;
@@ -94,6 +102,8 @@ nav ul {
   overflow: hidden; /* empêche le débordement de contenu */
   white-space: nowrap; /* empêche les retours à la ligne */
 }
+
+
 
 nav {
   margin-top: -16px;
