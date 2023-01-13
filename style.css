@@ -156,6 +156,10 @@ section {
   text-align: left;
 }
 
+#tournées {
+  display: none;
+}
+
 table#tournee {
   border: none;
   margin: 20px;
